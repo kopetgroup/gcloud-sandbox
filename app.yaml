@@ -1,0 +1,12 @@
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /pub
+  script: pub.php
+- url: /kecap
+  script: kecap.php
+- url: /sub
+  script: sub.php
+- url: /.*
+  script: index.php
